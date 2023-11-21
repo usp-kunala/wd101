@@ -1,5 +1,5 @@
 document.addEventListener('DOMContentLoaded', () => {
-    const form = document.getElementById('registor');
+    const form = document.getElementById('registrationform');
     const tableBody = document.querySelector('#userTable tbody');
   
     form.addEventListener('submit', function(event) {
@@ -23,8 +23,6 @@ document.addEventListener('DOMContentLoaded', () => {
         alert('Age must be between 18 and 55.');
         return;
       }
-  
-      // Add user data to the table
       const newRow = tableBody.insertRow();
       newRow.innerHTML = `
         <td>${name}</td>
