@@ -1,5 +1,5 @@
 document.addEventListener('DOMContentLoaded', () => {
-    const form = document.getElementById('registrationform');
+    const form = document.getElementById('registrationForm');
     const tableBody = document.querySelector('#userTable tbody');
   
     form.addEventListener('submit', function(event) {
